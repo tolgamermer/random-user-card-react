@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9ff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.user-list-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-list-container ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.user-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 520px;
+  min-width: 500px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 2px 12px 3px rgba(53, 53, 53 0.1);
+  margin: 20px;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+.street-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.user-name-info {
+  font-size: 1.3rem;
+}
+
+.location-info {
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.desc-layout {
+  margin-top: 5px;
+  color: #babcc2;
+}
+
+.user-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.user-age {
+  color: #babcc2;
+}
+
+.reach-information {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  border-top: solid #0fcdef 2px;
+  margin-bottom: 30px;
+}
+
+.reach {
+  margin-top: 20px;
+  text-decoration: none;
+  display: flex;
+  color: #026a7c;
+}
+
+.phone-icon {
+  margin-right: 5px;
+}
+
+.mail-icon {
+  margin-right: 5px;
+}
+
+.user-refresh-btn {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #162b4e;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 2rem;
+}
